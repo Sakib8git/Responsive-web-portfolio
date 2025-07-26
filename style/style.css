@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.max-screen{
+    max-width: 1920px;
+}
+.container{
+    max-width: 1540px;
+    margin: 0 auto; 
+}
+:root {
+  --primary-font: "Fjalla One", sans-serif;;
+  --secondary-font: "Crimson Text", serif;
+  --banner-color: #fff8f3;
+  --button-color: #fd6e0a;
+  --font-diccription-color:#757575;
+  --font-secondary-color:var(--button-color)
+}
+.font-color-secondary {
+  color: var(--button-color);
+}
+.primary-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 150px;
+  height: 64px;
+  color: white;
+  background-color: var(--button-color);
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  
+}
+
+/* shared css */
+
+/* custom scc */
+
+/* nav */
+.nav_banner-section{
+    background-color: var(--banner-color);
+    background-image: url(../img/developer.png), url(../img/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top 30px left 40px, bottom right;
+    /* background-size: contain; */
+    
+}
+.nav-con{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.nav-item-con{
+    display: flex;
+    gap: 51px;
+
+}
+.nav-item-con ul {
+    display: flex;
+align-items: center;
+gap: 51px;
+}
+.nav-logo{
+    font-size:3rem ;
+    font-family: var(--primary-font);
+    font-weight: 900;
+}
+.nav-item a{
+    font-family: var(--secondary-font);
+    color: black;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+/* banner */
+.banner_con{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.banner-text{
+    margin-left: 180px;
+}
+.banner-title{
+    font-size: 5.3125rem;
+    font-weight: 900;
+    font-family: var(--primary-font);
+}
+.banner-discription{
+    font-size: 1.23rem;
+    font-family: var(--secondary-font);
+    color: var(--font-diccription-color);
+
+}
+.banner-button-con{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    
+    
+}
+.banner-button1{
+    width: 200px;
+   
+}
+.banner-button2{
+    width: 160px;
+    border:1px solid var(--button-color);
+    background-color: #fd6f0a00;
+    color: var(--font-secondary-color);
+}
+.banner-img{
+    display: block;
+    width: 100%;
+}
+/* about me */
