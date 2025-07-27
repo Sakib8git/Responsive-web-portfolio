@@ -21,16 +21,40 @@
     .banner-button-con{
         flex-direction: column;
     }
+    .banner-title{
+        text-align: center;
+    }
     .banner-text{
         margin:0 20px;
         margin-top: 30px;
-        text-align: center;
+        text-align: justify;
     }
     .banner-button-con{
         align-items: center;
     }
 
+.about-con{
+    margin: 40px 30px;
+}
+    .about-info-con{
+        flex-direction: column;
+        gap: 20px;
+    }
 
+    .about-discription{
+        text-align: justify;
+    }
+
+    .what-do-card-con{
+        grid-template-columns: 1fr;
+        margin-top: 50px;
+    }
+    .what-do-card{
+        margin: auto;
+    }
+    .what-do-con{
+    margin: 40px 40px;
+}
 }
 
 
@@ -59,6 +83,16 @@
     
 }
 
+
+
+ .what-do-card-con{
+        grid-template-columns:repeat(2, 1fr) ;
+        margin-top: 40px;
+        padding: 0 150px;
+    }
+    .what-do-card{
+        margin: auto;
+    }
 
 
 }
