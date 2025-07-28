@@ -1,4 +1,7 @@
 @media screen and (max-width:576px) {
+    .section-title {
+        font-size: 2rem;
+    }
     .nav_banner-section{
         background-image: none;
     }
@@ -55,6 +58,42 @@
     .what-do-con{
     margin: 40px 40px;
 }
+
+.resume-part-con{
+    flex-direction: column;
+    margin: 0px 30px;
+}
+.resume-title{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.footer-part{
+    padding-top: 20px;
+}
+.footer-con{
+    margin: 0px 30px;
+    flex-direction: column;
+    
+}
+.footer-title{
+    text-align: center;
+    margin-top: -20px;
+}
+.footer-form input[type="text"],
+.footer-form input[type="email"]{
+
+    width: 350px;
+}
+.footer-textarea {
+    width: 350px;
+
+}
+.footer-button{
+   
+    margin: 0 auto;
+}
+
 }
 
 
@@ -93,6 +132,38 @@
     .what-do-card{
         margin: auto;
     }
+.resume-part-con{
+    
+    margin: 0px 30px;
+}
+.resume-title{
+    margin-top: 30px;
+    
+}
 
-
+/* .footer-part{
+    padding-top: 50px;
+} */
+.footer-con{
+    margin: 0px 30px;
+    flex-direction: column;
+    
+}
+.footer-text-con{
+    text-align: center;
+}
+.footer-icon-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footer-title{
+    text-align: center;
+    margin-top: -20px;
+}
+.footer-button{
+   
+    margin: 0 auto;
+}
 }
